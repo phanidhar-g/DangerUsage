@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32879BFE79BDF5D519EA3FC3 /* Pods_DangerUsageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F2280AEB3868B4A72B3E01 /* Pods_DangerUsageTests.framework */; };
+		5AD9D6B73E0877B267AB1931 /* Pods_DangerUsage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9C5A22A3F88217A454F1E /* Pods_DangerUsage.framework */; };
 		9ED9E19E24E2688E0094FBDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9E19D24E2688E0094FBDF /* AppDelegate.swift */; };
 		9ED9E1A024E2688E0094FBDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9E19F24E2688E0094FBDF /* SceneDelegate.swift */; };
 		9ED9E1A224E2688E0094FBDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9E1A124E2688E0094FBDF /* ViewController.swift */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A40EDFE16A6AA194E1A9ECA /* Pods-DangerUsageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DangerUsageTests.debug.xcconfig"; path = "Target Support Files/Pods-DangerUsageTests/Pods-DangerUsageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85198A3E238569C8EF97B30D /* Pods-DangerUsageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DangerUsageTests.release.xcconfig"; path = "Target Support Files/Pods-DangerUsageTests/Pods-DangerUsageTests.release.xcconfig"; sourceTree = "<group>"; };
+		87E9C5A22A3F88217A454F1E /* Pods_DangerUsage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DangerUsage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9810618A585B945603FC70C0 /* Pods-DangerUsage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DangerUsage.release.xcconfig"; path = "Target Support Files/Pods-DangerUsage/Pods-DangerUsage.release.xcconfig"; sourceTree = "<group>"; };
 		9ED9E19A24E2688E0094FBDF /* DangerUsage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DangerUsage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED9E19D24E2688E0094FBDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ED9E19F24E2688E0094FBDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		9ED9E1B024E2688F0094FBDF /* DangerUsageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DangerUsageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED9E1B424E2688F0094FBDF /* DangerUsageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerUsageTests.swift; sourceTree = "<group>"; };
 		9ED9E1B624E2688F0094FBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23A560D0AEE14C887D7A5E0 /* Pods-DangerUsage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DangerUsage.debug.xcconfig"; path = "Target Support Files/Pods-DangerUsage/Pods-DangerUsage.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F2280AEB3868B4A72B3E01 /* Pods_DangerUsageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DangerUsageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD9D6B73E0877B267AB1931 /* Pods_DangerUsage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32879BFE79BDF5D519EA3FC3 /* Pods_DangerUsageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472BC9FE94581A644919F221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87E9C5A22A3F88217A454F1E /* Pods_DangerUsage.framework */,
+				D6F2280AEB3868B4A72B3E01 /* Pods_DangerUsageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48B95ECDE93CFA2A05FBC4AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A23A560D0AEE14C887D7A5E0 /* Pods-DangerUsage.debug.xcconfig */,
+				9810618A585B945603FC70C0 /* Pods-DangerUsage.release.xcconfig */,
+				1A40EDFE16A6AA194E1A9ECA /* Pods-DangerUsageTests.debug.xcconfig */,
+				85198A3E238569C8EF97B30D /* Pods-DangerUsageTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9ED9E19124E2688E0094FBDF = {
 			isa = PBXGroup;
 			children = (
 				9ED9E19C24E2688E0094FBDF /* DangerUsage */,
 				9ED9E1B324E2688F0094FBDF /* DangerUsageTests */,
 				9ED9E19B24E2688E0094FBDF /* Products */,
+				48B95ECDE93CFA2A05FBC4AF /* Pods */,
+				472BC9FE94581A644919F221 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9ED9E1B924E2688F0094FBDF /* Build configuration list for PBXNativeTarget "DangerUsage" */;
 			buildPhases = (
+				42CA405FDB0F403320CE8DC9 /* [CP] Check Pods Manifest.lock */,
 				9ED9E19624E2688E0094FBDF /* Sources */,
 				9ED9E19724E2688E0094FBDF /* Frameworks */,
 				9ED9E19824E2688E0094FBDF /* Resources */,
@@ -123,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9ED9E1BC24E2688F0094FBDF /* Build configuration list for PBXNativeTarget "DangerUsageTests" */;
 			buildPhases = (
+				5A302EB92B3FB023EA1E1E82 /* [CP] Check Pods Manifest.lock */,
 				9ED9E1AC24E2688F0094FBDF /* Sources */,
 				9ED9E1AD24E2688F0094FBDF /* Frameworks */,
 				9ED9E1AE24E2688F0094FBDF /* Resources */,
@@ -194,6 +229,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42CA405FDB0F403320CE8DC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DangerUsage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A302EB92B3FB023EA1E1E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DangerUsageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9ED9E19624E2688E0094FBDF /* Sources */ = {
@@ -360,6 +442,7 @@
 		};
 		9ED9E1BA24E2688F0094FBDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23A560D0AEE14C887D7A5E0 /* Pods-DangerUsage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +460,7 @@
 		};
 		9ED9E1BB24E2688F0094FBDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9810618A585B945603FC70C0 /* Pods-DangerUsage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +478,7 @@
 		};
 		9ED9E1BD24E2688F0094FBDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A40EDFE16A6AA194E1A9ECA /* Pods-DangerUsageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +500,7 @@
 		};
 		9ED9E1BE24E2688F0094FBDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85198A3E238569C8EF97B30D /* Pods-DangerUsageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
