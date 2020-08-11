@@ -21,7 +21,7 @@ let package = Package(
   ],
   targets: [
     .target(name: "DangerDependencies",
-            dependencies: ["Danger", "DangerPlugins", "DangerSwiftCoverage", "DangerXCodeSummary", "ShellOut"],
+            dependencies: ["Danger", "DangerSwiftCoverage", "DangerXCodeSummary", "ShellOut"],
             path: "DangerDependencies")
   ]
 )
